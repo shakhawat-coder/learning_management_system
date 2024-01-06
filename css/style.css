@@ -532,9 +532,6 @@ letter-spacing: -2.141px;
     background: var(--blue);
     color: var(--white);
 }
-#service{}
-
-
 @keyframes pulse {
     0% {
         transform: scale(0.7);
@@ -544,13 +541,6 @@ letter-spacing: -2.141px;
         -o-transform: scale(0.7);
         opacity: 1;
 }
-      /* 70% {
-        transform: scale(1);
-        -webkit-transform: scale(1);
-        -moz-transform: scale(1);
-        -ms-transform: scale(1);
-        -o-transform: scale(1);
-} */
       100% {
         transform: scale(1);
         -webkit-transform: scale(1);
@@ -607,5 +597,56 @@ letter-spacing: -2.141px;
     font-size: 30px;
   }
 
-
-  
+/* =============counter section========== */
+#counter{
+    padding: 0 0 120px;
+}
+#counter .counter_wrapper{
+    
+    /* background: rgba(79, 94, 227, 0.5); */
+    border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    -ms-border-radius: 0 0 10px 10px;
+    -o-border-radius: 0 0 10px 10px;
+}
+#counter .counter_wrapper .counter_item_content{
+    position: relative;
+    margin: 50px 0;
+}
+#counter .counter_wrapper .counter_item_content:hover img{
+    transition: all linear .3s;
+    transform: rotatey(180deg);
+    -webkit-transform: rotatey(360deg);
+    -moz-transform: rotatey(360deg);
+    -ms-transform: rotatey(360deg);
+    -o-transform: rotatey(360deg);
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+#counter .counter_wrapper .counter_item_content::after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    right: -10px;
+    top: 0;
+    border-right: 2px dashed #E4E4E4;
+}
+#counter .counter_wrapper .col-lg-3:last-child .counter_item_content::after{
+    display: none;
+}
+#counter .counter_wrapper .counter_item_content .counter_number{
+    padding: 30px 0 20px;
+}
+#counter .counter_wrapper .counter_item_content .counter_number span{
+    color: #FFF;
+    font-family: var(--urbanist);
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px; 
+}
+#counter .counter_wrapper .counter_item_content p{
+    color: #E4E4E4;
+}
