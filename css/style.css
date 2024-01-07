@@ -652,7 +652,9 @@ letter-spacing: -2.141px;
 }
 
 /* ============course section============== */
-#course{}
+#course{
+    padding: 120px 0;
+}
 #course .course_wrapper{
     row-gap: 30px;
 }
@@ -770,4 +772,43 @@ letter-spacing: -2.141px;
     font-weight: 500;
     line-height: 26px; 
     text-transform: uppercase;
+}
+/* ============category section============== */
+#category{
+    padding: 120px 0;
+}
+#category .category_wrapper{
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#category .category_wrapper .category_item{
+    padding: 56px 78px;
+    background: var(--primary_text);
+}
+#category .category_wrapper .category_item .category_item_icon{
+    margin-bottom: 27px;
+}
+#category .category_wrapper .category_item:hover .category_item_icon img{
+    transition: all linear .2s;
+    transform: rotatey(180deg);
+    -webkit-transform: rotatey(360deg);
+    -moz-transform: rotatey(360deg);
+    -ms-transform: rotatey(360deg);
+    -o-transform: rotatey(360deg);
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
+}
+#category .category_wrapper .category_item:hover a h5{
+    color: var(--orange) !important;
+    transition: all linear .2s;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
 }
