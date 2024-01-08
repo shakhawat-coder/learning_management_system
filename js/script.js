@@ -28,3 +28,6 @@ $(document).ready(function(){
         navText: ['<i class="fa-sharp fa-solid fa-arrow-left-long"></i>', '<i class="fa-sharp fa-solid fa-arrow-right-long"></i>'],
   });
 });
+
+
+new WOW().init();
