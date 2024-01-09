@@ -1154,4 +1154,97 @@ column-gap: 10px;
     color: var(--white);
  }
 
- 
+  /* ===================branding section============  */
+ #branding{
+    padding: 120px 0;
+ }
+
+ /* ======================cta2 section================== */
+ .cta2 h3{
+    font-family: var(--waterBrush);
+    color: #F57005;
+    font-size: 90.637px;
+    font-weight: 400;
+    line-height: normal;
+ }
+ .cta2 .cta_content span{
+    color: #FFF;
+    font-family: var(--urbanist);
+    font-size: 72.603px;
+    font-weight: 400;
+    line-height: 86.921px; 
+    letter-spacing: -1.452px;
+ }
+ .cta2 .cta_content span span{
+    color: var(--orange);
+ }
+ /* =================footer================ */
+ footer .top_footer{
+    background: #36305D;
+ }
+ footer .footer_wrapper{
+    padding: 120px 0;
+ }
+ footer .footer_wrapper .footer_content ul{
+    margin: 30px 0;
+    row-gap: 24px;
+ }
+ footer .footer_wrapper .footer_content ul li,
+ footer .footer_wrapper .footer_content ul li a{
+    color: #B3ADE1;
+    font-family: var(--urbanist);
+    font-size: 17.644px;
+    font-weight: 400;
+    line-height: 29.407px; 
+ }
+ footer .footer_wrapper .footer_content ul li i{
+    color: var(--orange);
+    padding-right: 15px;
+    
+ }
+ footer .footer_wrapper .footer_content .footer_social{
+    display: flex; 
+    align-items: center;
+    column-gap: 16px;
+ }
+ footer .footer_wrapper .footer_content .footer_social a{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    border: 1px solid var(--blue);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+ footer .footer_wrapper .footer_content .footer_social a i{
+color: var(--white);
+font-size: 10px;
+ }
+ footer .footer_wrapper .footer_content .footer_social a:hover{
+    background: var(--blue);
+ }
+ footer .footer_wrapper .footer_content .footer_galleries{
+    margin-top: 40px;
+ }
+ footer .footer_wrapper .footer_content .footer_galleries a{
+    height: 92px;
+    width: 92px;
+    background: var(--primary_text);
+    overflow: hidden;
+ }
+ footer .footer_wrapper .footer_content .footer_galleries a img{
+    width: 100%;
+    height: 100%px;
+    object-fit: cover;
+ }
+
+ footer .copyrignt{
+    background: var(--primary_text);
+    text-align: center;
+    padding: 35px 0;
+ }

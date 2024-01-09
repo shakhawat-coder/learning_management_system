@@ -1,5 +1,6 @@
 new VenoBox({
-    selector: '.venobox'
+    selector: '.venobox',
+    selector: '.img-popup'
   });
 
   $('.counter').counterUp({
