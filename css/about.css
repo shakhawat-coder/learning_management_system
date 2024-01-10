@@ -1,0 +1,386 @@
+:root{
+    --urbanist: 'Urbanist', sans-serif;
+    --waterBrush: 'Water Brush', cursive;
+
+  }
+  :root{
+    --primary_text: #2A254D;
+    --blue:#4F5DE3;
+    --orange: #F57005;
+    --white:#ffffff;
+  }
+/* ==================nav section============= */
+#aboutpage .navbar{
+    background: var(--white);
+}
+.nav_btn{
+    column-gap: 16px;
+    background: var(--blue);
+    padding: 15px 50px 15px 15px;
+    border-radius: 60px 0 0 60px;
+    -webkit-border-radius: 60px 0 0 60px;
+    -moz-border-radius: 60px 0 0 60px;
+    -ms-border-radius: 60px 0 0 60px;
+    -o-border-radius: 60px 0 0 60px;
+}
+.nav_btn i{
+    color: var(--blue);
+    height: 53px;
+    width: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--white);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.nav_btn a{
+    color: #FFF;
+    font-family: var(--urbanist);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px; 
+}
+.nav_btn span{
+    color: #FFF;
+    font-family: var(--urbanist);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 23px; 
+}
+/* ===================banner section================ */
+#banner{
+    padding: 274px 0 154px;
+}
+#banner h2{
+    color: #FFF;
+    font-family: var(--urbanist);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 47px;
+    text-transform: uppercase;
+}
+#banner .breadcrumb .breadcrumb-item{
+    color: #FFF;
+    font-family: var(--urbanist);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 47px; 
+}
+#banner .breadcrumb .breadcrumb-item a{
+    color: #FFF;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    color: var(--white);
+}
+
+/* ==============about us section=================  */
+#aboutus{
+    padding: 120px 0 100px;
+}
+#aboutus .about_us_images .about_us_image{
+    right: 40px;
+    height: 651px;
+    width: 451px;
+    background: var(--primary_text);
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    -ms-border-radius: 500px;
+    -o-border-radius: 500px;
+}
+#aboutus .about_us_images .about_us_image2{
+    width: 305px;
+    height: 440px;
+    bottom: 30px;
+    left: -40px;
+    background: var(--primary_text);
+    border: 10px solid var(--white);
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    -ms-border-radius: 500px;
+    -o-border-radius: 500px;
+}
+#aboutus .counter_num{
+    top: -20px;
+    background: var(--white);
+    padding: 56px 52px 28px;
+    box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#aboutus .counter_num span{
+    color: var(--orange);
+    font-family: var(--urbanist);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 61.714px;
+}
+#aboutus .counter_num p{
+    color: #697585;
+    font-family: var(--urbanist);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px; 
+}
+#aboutus .trophy{
+    height: 70px;
+    width: 70px;
+    top: -35px;
+    left: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--blue);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#aboutus .about_us_content .mission .mission_header,
+#aboutus .about_us_content .vision .vision_header{
+    padding: 30px 0 10px;
+}
+/* ===============counter seciton============= */
+#about_counter{
+    padding-bottom: 120px;
+}
+#about_counter .about_counter_wrapper .counter_item_content{
+    padding: 57px 76px;
+    background: var(--white);
+    border: 3px dashed var(--blue);
+    box-shadow: -1px 3px 60px 0px rgba(0, 0, 0, 0.07);
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+#about_counter .about_counter_wrapper .counter_item_content .counter_number span{
+    color: #F57005;
+    font-family: var(--urbanist);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+}
+/* ==================course section================ */
+#aboutpage #course{
+    overflow-x: hidden;
+}
+#aboutpage #course .course_wrapper{
+    overflow: visible;
+}
+#aboutpage #course .course_wrapper .course_item{
+    overflow: hidden;
+    z-index: 99;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+#aboutpage #course .course_wrapper .course_item .course_image{
+    width: 100%;
+    height: 276px;
+    border-radius: 0 0 400px 400px;
+    -webkit-border-radius: 0 0 400px 400px;
+    -moz-border-radius: 0 0 400px 400px;
+    -ms-border-radius: 0 0 400px 400px;
+    -o-border-radius: 0 0 400px 400px;
+}
+
+.course_item .course_item_image svg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 110px;
+    margin: auto;
+    fill: var(--orange);
+    transition: 500ms ease;
+    z-index: -1;
+    width: calc(100% - 63px);
+}
+#aboutpage #course .course_wrapper .course_item:hover svg{
+    fill: var(--blue);
+}
+
+ .owl-carousel .owl-nav {
+    display: inline-block;
+    overflow-x: hidden;
+    position: absolute;
+    left:  90%;
+    top: -70px;
+    column-gap: 16px;
+}
+
+/* =====================testimony section============== */
+#aboutpage #testimony{
+    margin-bottom: 324px;
+    padding: 120px 0 250px;
+}
+#aboutpage #testimony .testimonials_wrapper .owl-item.active{
+   /* background: #000; */
+   
+}
+#aboutpage #testimony .testimonials_wrapper .testimonial_item{
+   background: var(--white);
+   border: none;
+   z-index: 1;
+   border-bottom: 20px solid var(--blue);
+   border-radius: 10px 10px 50px 50px;
+   
+   -webkit-border-radius: 10px 10px 50px 50px;
+   -moz-border-radius: 10px 10px 50px 50px;
+   -ms-border-radius: 10px 10px 50px 50px;
+   -o-border-radius: 10px 10px 50px 50px;
+}
+#aboutpage #testimony .testimonials_wrapper .testimonial_item svg{
+    z-index: -99999;
+    fill: var(--blue);
+    bottom: -140px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+#aboutpage #testimony .testimonials_wrapper .testimonial_item p{
+    padding: 30px 0;
+}
+#aboutpage #testimony .testimonials_wrapper .testimonial_item .testimony_content .star{
+    column-gap: 5px;
+}
+#aboutpage #testimony .testimonials_wrapper .testimonial_item .testimony_content .star i{
+   border: none;
+   padding: 0;
+}
+#aboutpage #testimony .testimonials_wrapper .testimonial_item .testimony_content .user_info{
+    column-gap: 20px;
+}
+#aboutpage #testimony .testimonials_wrapper .testimonial_item .testimony_content .user_info .user_image{
+   width: 50px;
+   overflow: hidden;
+   height: 50px;
+   background: var(--primary_text);
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+}
+/* #testimony .owl-carousel .owl-nav {
+    display: inline-block;
+    display: flex;
+    overflow-x: hidden;
+    position: absolute;
+    left:  50%;
+    top:  300px;
+    column-gap: 16px;
+} */
+
+/* ==================team section================== */
+#aboutpage #team{
+    margin-bottom: 120px;
+    border-top: 1px solid #E4E4E4;
+}
+#aboutpage #team .section_header {
+    padding-bottom: 280px;
+}
+#aboutpage #team .team_body{
+    padding: 215px 0;
+}
+#aboutpage #team .team_member_wrapper {
+    position: absolute;
+    top: -275px;
+}
+/* #aboutpage #team .team_member_wrapper .team_member{
+    border: 20px solid var(--blue);
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    -ms-border-radius: 500px;
+    -o-border-radius: 500px;
+    transition: all ease-out .3s;
+    -webkit-transition: all ease-out .3s;
+    -moz-transition: all ease-out .3s;
+    -ms-transition: all ease-out .3s;
+    -o-transition: all ease-out .3s;
+}
+#aboutpage #team .team_member_wrapper .team_member:hover{
+    border: 20px solid var(--orange);
+} */
+
+#aboutpage #team .team_member_wrapper .team_member .member_info_overlap {
+    display: none;
+    background: transparent;
+    height: 319px;
+    width: 314px;
+    bottom: 150px;
+    left: 51px;
+    border-radius: 0 0 200px 200px;
+    -webkit-border-radius: 0 0 200px 200px;
+    -moz-border-radius: 0 0 200px 200px;
+    -ms-border-radius: 0 0 200px 200px;
+    -o-border-radius: 0 0 200px 200px;
+    clip-path: polygon(0 34%, 100% 0, 100% 100%, 0% 100%);
+}
+#aboutpage #team .team_member_wrapper .team_member:hover .member_info_overlap{
+    display: block;
+}
+
+
+/* ================newsletter section=============== */
+#newsletter{
+    padding: 100px 77px;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#newsletter .newsletter_body h3{
+    color: var(--white);
+    font-family: var(--urbanist);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+}
+#newsletter .newsletter_body form {
+    column-gap: 12px;
+}
+#newsletter .newsletter_body form input{
+    width: 352px;
+    height: 56px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background: var(--white);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+#newsletter .newsletter_body form button{
+    font-family: var(--urbanist);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    height: 56px;
+    width: 180px;
+    color: var(--white);
+    background: var(--orange);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}

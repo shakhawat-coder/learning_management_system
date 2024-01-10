@@ -1,4 +1,5 @@
   @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700;800&family=Water+Brush&display=swap');
+  @import url(../css/about.css);
   :root{
     --urbanist: 'Urbanist', sans-serif;
     --waterBrush: 'Water Brush', cursive;
@@ -76,6 +77,13 @@ h1,h2,h3,h4,h5,h6,p{
     font-weight: 700;
     line-height: 47px; 
     padding: 20px 0 40px;
+}
+.common_h4{
+    color: var(--primary_text,#2A254D);
+    font-family: var(--urbanist);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 26px; 
 }
 .common_h5{
     color: var(--blue);
@@ -591,7 +599,6 @@ letter-spacing: -2.141px;
   #cta{
     padding: 120px 0;
   }
-  #cta .play{}
   #cta .play i{
     color: var(--orange);
     font-size: 30px;
@@ -603,7 +610,6 @@ letter-spacing: -2.141px;
 }
 #counter .counter_wrapper{
     
-    /* background: rgba(79, 94, 227, 0.5); */
     border-radius: 0 0 10px 10px;
     -webkit-border-radius: 0 0 10px 10px;
     -moz-border-radius: 0 0 10px 10px;
@@ -882,7 +888,7 @@ letter-spacing: -2.141px;
 }
 .owl-carousel .owl-nav{
     position: absolute;
-    right: 40px;
+    /* right: 40px; */
     bottom: 50px;
     display: flex;
     column-gap: 16px;
