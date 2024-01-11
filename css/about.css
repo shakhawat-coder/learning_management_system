@@ -11,6 +11,7 @@
   }
 /* ==================nav section============= */
 #contactpage .navbar,
+#teacherpage .navbar,
 #aboutpage .navbar{
     background: var(--white);
 }
@@ -227,17 +228,12 @@
     margin-bottom: 324px;
     padding: 120px 0 250px;
 }
-#aboutpage #testimony .testimonials_wrapper .owl-item.active{
-   /* background: #000; */
-   
-}
 #aboutpage #testimony .testimonials_wrapper .testimonial_item{
    background: var(--white);
    border: none;
    z-index: 1;
    border-bottom: 20px solid var(--blue);
    border-radius: 10px 10px 50px 50px;
-   
    -webkit-border-radius: 10px 10px 50px 50px;
    -moz-border-radius: 10px 10px 50px 50px;
    -ms-border-radius: 10px 10px 50px 50px;
@@ -286,73 +282,6 @@
 } */
 
 /* ==================team section================== */
-#aboutpage #team{
-    margin-bottom: 120px;
-    border-top: 1px solid #E4E4E4;
-}
-#aboutpage #team .section_header {
-    padding-bottom: 280px;
-}
-#aboutpage #team .team_body{
-    padding: 215px 0;
-}
-#aboutpage #team .team_member_wrapper {
-    position: absolute;
-    top: -475px;
-}
-
-#aboutpage #team .team_member_wrapper .team_member{
-    /* border: 20px solid var(--blue); */
-    border-radius: 500px;
-    -webkit-border-radius: 500px;
-    -moz-border-radius: 500px;
-    -ms-border-radius: 500px;
-    -o-border-radius: 500px;
-    transition: all ease-out .4s;
-    -webkit-transition: all ease-out .4s;
-    -moz-transition: all ease-out .4s;
-    -ms-transition: all ease-out .4s;
-    -o-transition: all ease-out .4s;
-}
-#aboutpage #team .team_member_wrapper .team_member:hover{
-    /* border: 20px solid var(--orange); */
-}
-
-#aboutpage #team .team_member_wrapper .team_member .member_info_overlap {
-    display: none;
-    background: rgba(0, 0, 0, 0.493);
-    height: 100%;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    border-radius: 0 0 200px 200px;
-    -webkit-border-radius: 200px 200px 200px 200px;
-    -moz-border-radius: 0 0 200px 200px;
-    -ms-border-radius: 0 0 200px 200px;
-    -o-border-radius: 0 0 200px 200px;
-    clip-path: none;
-}
-#aboutpage #team .team_member_wrapper .team_member .member_image {
-    height: 513px;
-    /* width: 352px; */
-    overflow: hidden;
-    background: var(--primary_text);
-    border-radius: 200px;
-    -webkit-border-radius: 200px;
-    -moz-border-radius: 200px;
-    -ms-border-radius: 200px;
-    -o-border-radius: 200px;
-}
-#aboutpage #team .team_member_wrapper .team_member .member_image img{
-    height: 100%;
-    object-fit: cover;
-}
-#aboutpage #team .team_member_wrapper .team_member:hover .member_info_overlap{
-    display: block;
-}
-#aboutpage #team .team_member_wrapper .team_member .member_info_overlap .team_member_info{
-    margin-top: 200px;
-}
 
 
 /* ================newsletter section=============== */

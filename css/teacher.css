@@ -1,0 +1,112 @@
+#aboutpage #team,
+#teacher{
+    margin-bottom: 120px;
+    border-top: 1px solid #E4E4E4;
+}
+#teacher{
+    margin-top: 120px;
+    border: none;
+}
+#aboutpage #team .section_header {
+    padding-bottom: 280px;
+}
+#aboutpage #team .team_body{
+    padding: 215px 0;
+}
+#aboutpage #team .team_member_wrapper {
+    /* position: absolute; */
+    bottom: 180px;
+}
+#teacher .team_member_wrapper{
+    row-gap: 60px;
+}
+#aboutpage #team .team_member_wrapper .team_member,
+#teacher .team_member_wrapper .team_member{
+    /* border: 20px solid var(--blue); */
+    position: relative;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    -ms-border-radius: 500px;
+    -o-border-radius: 500px;
+    transition: all ease-out .4s;
+    -webkit-transition: all ease-out .4s;
+    -moz-transition: all ease-out .4s;
+    -ms-transition: all ease-out .4s;
+    -o-transition: all ease-out .4s;
+}
+#aboutpage #team .team_member_wrapper .team_member::after,
+#teacher .team_member_wrapper .team_member::after{
+    position: absolute;
+    content: "";
+    z-index: -9;
+    height: 309px;
+    bottom: -34px;
+    width: 416px;
+    background: var(--orange);
+    border-radius: 0 0 200px 200px;
+    -webkit-border-radius: 0 0 200px 200px;
+    -moz-border-radius: 0 0 200px 200px;
+    -ms-border-radius: 0 0 200px 200px;
+    -o-border-radius: 0 0 200px 200px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+#aboutpage #team .team_member_wrapper .team_member:hover::after,
+#teacher .team_member_wrapper .team_member:hover::after{
+    background: var(--blue);
+}
+
+#aboutpage #team .team_member_wrapper .team_member .member_info_overlap,
+#teacher .team_member_wrapper .team_member .member_info_overlap {
+    display: none;
+    background: rgba(0, 0, 0, 0.493);
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 0 0 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 0 0 200px 200px;
+    -ms-border-radius: 0 0 200px 200px;
+    -o-border-radius: 0 0 200px 200px;
+    clip-path: none;
+}
+#aboutpage #team .team_member_wrapper .team_member:hover .member_info_overlap,
+#teacher .team_member_wrapper .team_member:hover .member_info_overlap{
+    display: block;
+}
+/* #aboutpage #team .team_member_wrapper .team_member .member_image, */
+#teacher .team_member_wrapper .team_member .member_image {
+    margin: 0 auto;
+    height: 513px;
+    width: 352px;
+    overflow: hidden;
+    background: var(--primary_text);
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    -ms-border-radius: 200px;
+    -o-border-radius: 200px;
+}
+#aboutpage #team .team_member_wrapper .team_member .member_image img,
+#teacher .team_member_wrapper .team_member .member_image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#aboutpage #team .team_member_wrapper .team_member .member_info_overlap .team_member_info,
+#teacher .team_member_wrapper .team_member .member_info_overlap .team_member_info{
+    margin-top: 200px;
+}
+#teacher .team_member_wrapper .team_member .member_info_overlap .team_member_info .team_designation{
+    padding: 15px 0;
+    display: block;
+}
+#teacher .team_member_wrapper .team_member .member_info_overlap .team_member_info a{
+    color: var(--white);
+}

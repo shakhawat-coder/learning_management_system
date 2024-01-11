@@ -1,6 +1,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700;800&family=Water+Brush&display=swap');
   @import url(../css/about.css);
   @import url(../css/contact.css);
+  @import url(../css/teacher.css);
   :root{
     --urbanist: 'Urbanist', sans-serif;
     --waterBrush: 'Water Brush', cursive;
