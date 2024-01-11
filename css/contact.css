@@ -1,0 +1,92 @@
+#contact{
+    padding: 120px 0;
+}
+#contact form{}
+#contact form .input-group{
+    margin-bottom: 20px;
+    gap: 20px;
+}
+#contact form .input-group input{
+    height: 60px;
+    outline: 0;
+    box-shadow: none;
+    border: none;
+    background: #F6F6F6;
+}
+#contact form .input-group textarea{
+    margin-bottom: 20px;
+    height: 176px;
+    outline: 0;
+    box-shadow: none;
+    border: none;
+    background: #F6F6F6;
+}
+#contact form button{
+    margin-top: 20px;
+    column-gap: 10px;
+    border: none;
+    margin: 0 auto;
+}
+ /* ====================contact details==============  */
+#contact_details .contact_details_wrapper{
+    display: flex;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+    overflow: hidden;
+    margin-bottom: 120px;
+}
+#contact_details .contact_details_wrapper .contact_details_item{
+    background: var(--white);
+    box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.07);
+    padding: 45px 0;
+    transition: all linear .2s;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
+}
+#contact_details .contact_details_wrapper .contact_details_item:hover{
+    background: var(--blue);
+}
+#contact_details .contact_details_wrapper .contact_details_item i{
+    color: var(--blue);
+    font-size: 45px;
+    display: inline-block;
+}
+#contact_details .contact_details_wrapper .contact_details_item span{
+    display: block;
+    margin: 20px 0 15px;
+    color: #697585;
+    text-align: center;
+    font-family: var(--urbanist);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px; 
+}
+#contact_details .contact_details_wrapper .contact_details_item a,
+#contact_details .contact_details_wrapper .contact_details_item p{
+    color: var(--primary-text);
+    text-align: center;
+    font-family: var(--urbanist);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    transition: all linear .2s;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
+}
+
+#contact_details .contact_details_wrapper .contact_details_item:hover i,
+#contact_details .contact_details_wrapper .contact_details_item:hover span,
+#contact_details .contact_details_wrapper .contact_details_item:hover a,
+#contact_details .contact_details_wrapper .contact_details_item:hover p{
+    color: var(--white);
+}
+#contact_details .contact_details_wrapper .contact_details_item a:hover{
+    color: var(--orange);
+}
