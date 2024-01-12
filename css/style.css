@@ -1211,7 +1211,8 @@ column-gap: 10px;
     padding-right: 15px;
     
  }
- footer .footer_wrapper .footer_content .footer_social{
+ footer .footer_wrapper .footer_content .footer_social,
+ #teacher_details .teacher_info .social{
     display: flex; 
     align-items: center;
     column-gap: 16px;

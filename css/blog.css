@@ -1,5 +1,3 @@
-#blog_page #blog{}
-#blog_page #blog .blog_wrapper{}
 #blog_page #blog .blog_wrapper .blog_item{
     box-shadow: none;
     position: relative;

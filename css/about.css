@@ -12,7 +12,8 @@
 /* ==================nav section============= */
 #contactpage .navbar,
 #teacherpage .navbar,
-#aboutpage .navbar{
+#aboutpage .navbar,
+#blog_page .navbar{
     background: var(--white);
 }
 .nav_btn{
