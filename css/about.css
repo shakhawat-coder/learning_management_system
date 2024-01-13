@@ -13,7 +13,8 @@
 #contactpage .navbar,
 #teacherpage .navbar,
 #aboutpage .navbar,
-#blog_page .navbar{
+#blog_page .navbar,
+#gallery_page .navbar{
     background: var(--white);
 }
 .nav_btn{

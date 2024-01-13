@@ -1,0 +1,80 @@
+/* ==================team section==================  */
+#gallery{
+    padding: 120px 0;
+    position: relative;
+
+ }
+ #gallery .gallery_wrapper{
+   row-gap: 40px;
+ }
+#gallery .gallery_wrapper .gallery_image{
+    position: relative;
+    height: 551px;
+    width: 416px;
+    overflow: hidden;
+    background: var(--primary_text);
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    -ms-border-radius: 200px;
+    -o-border-radius: 200px;
+}
+#gallery .gallery_wrapper .gallery_image::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    -webkit-transform: perspective(400px) rotateX(-90deg);
+    -ms-transform: perspective(400px) rotateX(-90deg);
+    transform: perspective(400px) rotateX(-90deg);
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    background-color: rgba(79, 94, 227, 0.62);
+}
+#gallery .gallery_wrapper .gallery_image:hover::after {
+    opacity: 1;
+    -webkit-transform: perspective(400px) rotateX(0deg);
+    -ms-transform: perspective(400px) rotateX(0deg);
+    transform: perspective(400px) rotateX(0deg);
+}
+#gallery .gallery_wrapper .gallery_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#gallery .gallery_wrapper .gallery_image_item a{
+    position: absolute;
+    display: none;
+    color: var(--white);
+    font-size: 40px;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+#gallery .gallery_wrapper .gallery_image_item:hover a{
+    display: inline-block;
+    transform: scale(2.5);
+    -webkit-transform: scale(2.5);
+    -moz-transform: scale(2.5);
+    -ms-transform: scale(2.5);
+    -o-transform: scale(2.5);
+    
+}
+#gallery .gallery_wrapper .gallery_image{}
+#gallery .gallery_wrapper .gallery_image{}
