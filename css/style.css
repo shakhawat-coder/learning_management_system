@@ -5,6 +5,7 @@
   @import url(../css/blog.css);
   @import url(../css/gallery.css);
   @import url(../css/error.css);
+  @import url(../css/faq.css);
   :root{
     --urbanist: 'Urbanist', sans-serif;
     --waterBrush: 'Water Brush', cursive;
