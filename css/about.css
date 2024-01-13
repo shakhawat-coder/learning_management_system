@@ -14,7 +14,8 @@
 #teacherpage .navbar,
 #aboutpage .navbar,
 #blog_page .navbar,
-#gallery_page .navbar{
+#gallery_page .navbar,
+#error_page .navbar{
     background: var(--white);
 }
 .nav_btn{
