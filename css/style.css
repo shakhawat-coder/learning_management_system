@@ -6,6 +6,7 @@
   @import url(../css/gallery.css);
   @import url(../css/error.css);
   @import url(../css/faq.css);
+  @import url(../css/course_details.css);
   :root{
     --urbanist: 'Urbanist', sans-serif;
     --waterBrush: 'Water Brush', cursive;
@@ -1081,12 +1082,13 @@ letter-spacing: -2.141px;
  #blog .blog_wrapper .blog_item .blog_content .blog_top_content .blog_cats{
     margin-bottom: 30px;
  }
- #blog .blog_wrapper .blog_item .blog_content .blog_top_content .blog_cats a{
+ #blog .blog_wrapper .blog_item .blog_content .blog_top_content .blog_cats a,
+ #course_details .course_content .course_info .blog_cats a{
     color: #FFF;
     font-family: var(--urbanist);
     font-size: 14px;
     font-weight: 600;
-    line-height: 24px;
+    line-height: normal;
     padding: 10px;
     background: var(--blue);
     border-radius: 5px;

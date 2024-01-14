@@ -16,6 +16,7 @@
 #blog_page .navbar,
 #gallery_page .navbar,
 #faq_page .navbar,
+#course_details_page .navbar,
 #error_page .navbar{
     background: var(--white);
 }
