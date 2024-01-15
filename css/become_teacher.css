@@ -1,0 +1,73 @@
+#become_teacher{
+    padding: 120px 0;
+    border-bottom: 1px solid #E4E4E4;
+}
+#become_teacher .become_teacher_content h4{
+    padding: 50px 0 20px;
+}
+#become_teacher .become_teacher_content h4:first-child{
+    padding: 0 0 20px;
+}
+#become_teacher .become_teacher_content ul li{
+    position: relative;
+    padding-left: 14px;
+    color: #697585;
+    font-family: var(--urbanist);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px; 
+    letter-spacing: 0.16px;
+}
+#become_teacher .become_teacher_content ul li::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    height: 8px;
+    width: 8px;
+    background: var(--orange);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+#become_teacher .become_teacher_form{}
+#become_teacher .become_teacher_form h4{
+    padding-bottom: 30px;
+    border-bottom: 1px dashed var(--orange);
+    margin-bottom: 30px;
+}
+#become_teacher .become_teacher_form form{}
+#become_teacher .become_teacher_form form .input-group{
+    margin-bottom: 20px;
+}
+#become_teacher .become_teacher_form form .input-group input{
+    width: 100%;
+    height: 60px;
+    border-radius: 4px;
+    background: #F6F6F6;
+    outline: 0;
+    border: none;
+    padding: 0 30px;
+}
+#become_teacher .become_teacher_form form .input-group textarea{
+    width: 100%;
+    height: 154px;
+    border-radius: 4px;
+    background: #F6F6F6;
+    outline: 0;
+    border: none;
+    padding: 10px 30px;
+}
+#become_teacher .become_teacher_form form button{
+    border: none;
+}
+#become_teacherpage #teacher{
+    padding: 120px;
+}
