@@ -1,0 +1,181 @@
+#blog_details{
+    padding: 120px 0;
+}
+#blog_details{
+    row-gap: 30px;
+}
+#blog_details .blog_details_content{
+    background: var(--white);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#blog_details .blog_details_content h4{
+    padding: 20px 0 30px;
+}
+#blog_details .blog_details_content>p{
+    padding-bottom: 40px;
+}
+#blog_details .blog_details_content .blog_details_content_img{
+    height: 449px;
+    width: 100%;
+    margin-bottom: 40px;
+    overflow: hidden;
+    background: var(--primary_text);
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+#blog_details .blog_details_content .blog_details_content_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#blog_details .blog_details_content .course_info .blog_cats{
+    margin: 0 17px 0 0 ;
+}
+#blog_details .blog_details_content .course_info .blog_cats a{
+    color: #FFF;
+    font-family: var(--urbanist);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+    background: var(--blue);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#blog_details .blog_details_content .course_info .date{
+    color: var(--orange);
+}
+
+#blog_details .blog_details_content  .review .review_content{
+    padding: 60px 0;
+    border-bottom: 1px solid #E4E4E4;
+}
+#blog_details .blog_details_content  .review .add_review{
+    margin-top: 50px;
+}
+#blog_details .blog_details_content  .review .add_review h5{
+    padding-bottom: 40px;
+}
+#blog_details .blog_details_content  .review .add_review form .input-group{
+    margin-bottom: 20px;
+    gap: 20px;
+}
+#blog_details .blog_details_content  .review .add_review form .input-group input{
+    height: 60px;
+    outline: 0;
+    box-shadow: none;
+    border: none;
+    background: #F6F6F6;
+}
+#blog_details .blog_details_content  .review .add_review form .input-group textarea{
+    margin-bottom: 20px;
+    height: 211px;
+    outline: 0;
+    box-shadow: none;
+    border: none;
+    background: #F6F6F6;
+}
+#blog_details .blog_details_content  .review .add_review form  button{
+    margin-top: 20px;
+    column-gap: 10px;
+    border: none;
+}
+#blog_details .blog_details_content  .review .review_content{
+    column-gap: 30px;
+}
+#blog_details .blog_details_content  #review .review_content,.user_image{
+    height: 165px;
+    width: 165px;
+    background: var(--primary_text);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#blog_details .blog_details_content  .review .review_content .instructor_info p{
+    margin-top: 20px;
+}
+#blog_details .sidebar .sidebar_search form{
+    position: relative;
+    margin-bottom: 35px;
+}
+#blog_details .sidebar .sidebar_search form input{
+    height: 80px;
+    width: 100%;
+    background: var(--orange);
+    border: none;
+    outline: none;
+    padding: 0 60px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#blog_details .sidebar .sidebar_search form input::placeholder{
+    color: var(--white);
+}
+#blog_details .sidebar .sidebar_search form button{
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    border: none;
+    background: transparent;
+    color: var(--white);
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+
+
+#blog_details .sidebar .course_details_sidebar_item{
+    padding: 30px;
+    margin-bottom: 36px;
+    border-radius: 14px;
+    background: #FFF;
+    box-shadow: 0px 0px 60px 0px rgba(2, 2, 2, 0.07);
+}
+#blog_details .sidebar h4{
+    padding-bottom: 30px;
+    border-bottom: 1px dashed var(--orange);
+}
+#blog_details .sidebar ul li{
+    padding: 30px 0;
+    border-bottom: 1px solid #E4E4E4;
+    color: var(--orange);
+}
+#blog_details .sidebar .sidebar_post .sidebar__post__image{
+    height: 89px;
+    width: 89px;
+    overflow: hidden;
+    background: var(--primary_text);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+#blog_details .sidebar .sidebar_post .sidebar__post__image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#blog_details .sidebar .sidebar_post .sidebar__post__content h6 a{
+    color: var(--primary_text);
+}
+#blog_details .sidebar .sidebar_post .sidebar__post__content .date{
+    padding-bottom: 10px;
+}
