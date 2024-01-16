@@ -1,0 +1,37 @@
+#login_reg{
+    padding: 120px 0;
+}
+#login_reg .login_reg_wrapper{
+    position: relative;
+}
+#login_reg .login_reg_wrapper::after{
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 100%;
+    background: #F6F6F6;
+    left: 50%;
+    top: 0;
+
+}
+#login_reg .login_reg_wrapper h4{
+    padding: 0 0 40px 60px;
+}
+#login_reg .login_reg_wrapper form{
+    padding: 0 60px;
+}
+#login_reg .login_reg_wrapper form .input-group{
+    padding-bottom: 20px;
+}
+#login_reg .login_reg_wrapper form .input-group input{
+    border-radius: 4px;
+    background: #F6F6F6;
+    height: 60px;
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+#login_reg .login_reg_wrapper form button{
+    margin-top: 40px;
+    border: none;
+}

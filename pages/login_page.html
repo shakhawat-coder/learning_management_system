@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Education Management system</title>
+    <!-- ==========font awsome================ -->
+    <link rel="stylesheet" data-purpose="Layout StyleSheet" title="Web Awesome"
+        href="/css/app-wa-9846671ed7c9dd69b10c93f6b04b31fe.css?vsn=d">
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css">
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css">
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css">
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css">
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css">
+    <!-- =======venobox=========== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/venobox/2.1.4/venobox.min.css"
+        integrity="sha512-BQ1rOOCWWZHYsP4Oou2dTvedlr+gB2+aLSggwaezp8akn6BrNw+pkxaxM9f5wxwjer+te7ezjpIL1baHi5dOjA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- =================bootstrap=============== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- ======================slick slider=================== -->
+    <!-- <link rel="stylesheet" href="./css/slick.min.css"> -->
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <!-- =====================wow js=============== -->
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body id="login_page">
+    <!-- =============navbar section============== -->
+    <nav class="navbar navbar-expand-lg position-absolute w-100 ">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <picture>
+                    <img src="../images/logo.png" alt="">
+                </picture>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link  p-0 " aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-0 " href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-0 " href="#">Courses</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link p-0  dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            pages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link p-0 ">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link p-0 ">Shop</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav_right d-flex align-items-center ">
+                <div class="nav_right_child d-flex">
+                    <div class="search">
+                        <i class="fa-regular fa-magnifying-glass"></i>
+                    </div>
+                    <div class="login">
+                        <i class="fa-light fa-user"></i>
+                    </div>
+                </div>
+                <div class="nav_btn d-flex align-items-center ">
+                    <i class="fa-sharp fa-light fa-phone-volume"></i>
+                    <div class="d-flex flex-column ">
+                        <a class="" href="./contact.html">(303) 555-0105</a>
+                        <span>Call to Questions</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- ======================banner section=============== -->
+    <section id="banner" class="position-relative " style="
+    background: linear-gradient(rgba(42, 37, 77, 0.74),rgba(42, 37, 77, 0.795)),url(../images/video-bg-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    ">
+        <div class="container">
+            <h2 class="text-uppercase text-center ">login</h2>
+            <div class="text-center mx-auto" aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center ">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Login</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================login section================= -->
+    <div id="login_reg">
+        <div class="container">
+            <div class="row login_reg_wrapper">
+                <div class="col-lg-6">
+                    <div class="">
+                        <h4 class="common_h4">Login</h4>
+                        <form action="">
+                            <div class="input-group">
+                                <input type="text" placeholder="User Name or  Email Address*" class="form-control"
+                                    required>
+                            </div>
+                            <div class="input-group">
+                                <input type="password" placeholder="Password*" class="form-control ">
+                            </div>
+                            <div class="pt-3 d-flex align-items-center justify-content-between  ">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                    <label class="form-check-label common_p" for="flexCheckChecked">
+                                        Remember Me?
+                                    </label>
+                                </div>
+                                <a href="#" class="common_p">Forget Password?</a>
+                            </div>
+
+                            <button class="primary_btn d-flex justify-content-center align-items-center">Login</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="">
+                        <h4 class="common_h4">Register</h4>
+                        <form action="">
+                            <div class="input-group">
+                                <input type="text" placeholder="User Name" class="form-control ">
+                            </div>
+                            <div class="input-group">
+                                <input type="password" placeholder="Password*" class="form-control ">
+                            </div>
+                            <div class="pt-3 form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                <label class="form-check-label common_p" for="flexCheckChecked">
+                                    I Accept Company Privacy Policy
+                                </label>
+                            </div>
+                            <button
+                                class="primary_btn d-flex justify-content-center align-items-center">Register</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ====================footer section================= -->
+    <footer>
+        <div class="top_footer">
+            <div class="container">
+                <div class="row footer_wrapper justify-content-between ">
+                    <div class="col-xl-4 col-md-5 wow fadeInUp animated" data-wow-delay="100ms"
+                        style="visibility: visible; animation-delay: 100ms; animation-name: fadeInUp;">
+                        <div class="footer_content">
+                            <a href="../index.html" class="main-footer-two__logo">
+                                <img src="../images/footerLogo.png" alt="eduact" width="159" height="40">
+                            </a>
+                            <ul class="p-0 d-flex flex-column ">
+                                <li><i class="fa-sharp fa-regular fa-location-dot"></i></span>6391 Elgin St. Celina,
+                                    Delaware 10299</li>
+                                <li><i class="fa-regular fa-phone-volume"></i></span><a href="tel:3035550105">(303)
+                                        555-0105</a></li>
+                                <li><i class="fa-regular fa-envelope"></i></span><a
+                                        href="mailto:michael.mitc@example.com">michael.mitc@example.com</a></li>
+                            </ul>
+                            <div class="footer_social">
+                                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 wow fadeInUp animated" data-wow-delay="200ms"
+                        style="visibility: visible; animation-delay: 200ms; animation-name: fadeInUp;">
+                        <div class="footer_content">
+                            <h5 class="common_h5 text-white ">Quick Links</h5>
+                            <ul class="p-0 ">
+                                <li><a href="./course.html">Latest Courses</a></li>
+                                <li><a href="./about.html">Mission &amp; Vision</a></li>
+                                <li><a href="services.html">Our Approach</a></li>
+                                <li><a href="./team.html">Exclusive Advisors</a></li>
+                                <li><a href="./team_become.html">Join a Carrer</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 wow fadeInUp animated" data-wow-delay="200ms"
+                        style="visibility: visible; animation-delay: 200ms; animation-name: fadeInUp;">
+                        <div class="footer_content">
+                            <h5 class="common_h5 text-white ">Quick Links</h5>
+                            <ul class="p-0 ">
+                                <li><a href="./about.html">About Us</a></li>
+                                <li><a href="#">Upcoming Events</a></li>
+                                <li><a href="./blog.html">Blog & News</a></li>
+                                <li><a href="./faq.html">FAQ Question</a></li>
+                                <li><a href="./testimony.html">Testimonial</a></li>
+                                <li><a href="./privacy.html">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12 wow fadeInUp animated" data-wow-delay="400ms"
+                        style="visibility: visible; animation-delay: 400ms; animation-name: fadeInUp;">
+                        <div class="footer_content">
+                            <h5 class="common_h5 text-white">Gallery</h5>
+                            <div class="footer_galleries">
+                                <a class="img-popup" href="../images/"><img src="../images/" alt="eduact"></a>
+                                <a class="img-popup" href="../images/"><img src="../images/" alt="eduact"></a>
+                                <a class="img-popup" href="../images/"><img src="../images/" alt="eduact"></a>
+                                <a class="img-popup" href="../images/"><img src="../images/" alt="eduact"></a>
+                                <a class="img-popup" href="../images/"><img src="../images/" alt="eduact"></a>
+                                <a class="img-popup" href="../images/"><img src="../images/" alt="eduact"></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyrignt">
+            <p class="common_p">© Copyright 2023 by Company.com</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <!-- ======================bootstrap=============== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- ==========venobox========== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/venobox/2.1.4/venobox.min.js"
+        integrity="sha512-clFTPmeD7m4KGu2oaguuV2PFUa33W2Jn/b6qeDB4hVntW7qLaquN/1LTDvQGbjf8UPWlsLLS40V2QxygSRXLDg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- =============counterup=============== -->
+
+    <script src="../js/counterup.min.js"></script>
+
+    <!-- ================slick slider=========== -->
+    <!-- <script src="./js/slick.min.js"></script> -->
+    <script src="../js/owl.carousel.min.js"></script>
+
+    <!-- =====================wow js=============== -->
+    <script src="../js/wow.min.js"></script>
+    <script src="../js/script.js"></script>
+
+
+</body>
+
+</html>

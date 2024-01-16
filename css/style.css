@@ -9,6 +9,7 @@
   @import url(../css/error.css);
   @import url(../css/faq.css);
   @import url(../css/course_details.css);
+  @import url(../css/log_reg.css);
   :root{
     --urbanist: 'Urbanist', sans-serif;
     --waterBrush: 'Water Brush', cursive;
