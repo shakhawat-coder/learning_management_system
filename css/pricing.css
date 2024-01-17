@@ -1,0 +1,76 @@
+#pricing{
+    padding: 120px 0;
+}
+#pricing .pricing_wrapper{
+}
+#pricing .pricing_wrapper .pricing_item{
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.07);
+}
+#pricing .pricing_wrapper .pricing_item svg{
+    fill: #F6F6F6;
+    transition: all linear .2s;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
+}
+#pricing .pricing_wrapper .pricing_item:hover svg{
+    fill: var(--orange);
+}
+#pricing .pricing_wrapper .pricing_item .pricing_item_header{
+    top: 50px;
+    left: 125px;
+}
+#pricing .pricing_wrapper .pricing_item h5{
+    color: #2A254D;
+    padding-bottom: 20px;
+}
+#pricing .pricing_wrapper .pricing_item .pricing_item_price{
+    color: #2A254D;
+    text-align: center;
+    font-family: var(--urbanist);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+}
+#pricing .pricing_wrapper .pricing_item:hover h5,
+#pricing .pricing_wrapper .pricing_item:hover .pricing_item_price{
+    color: var(--white);
+}
+#pricing .pricing_wrapper .pricing_item h6{
+    padding-top: 40px;
+}
+#pricing .pricing_wrapper .pricing_item ul{
+    padding: 30px 0;
+    border-bottom: 1px solid #F6F6F6;
+}
+#pricing .pricing_wrapper .pricing_item ul li{
+    color: #000;
+    font-family: var(--urbanist);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+#pricing .pricing_wrapper .pricing_item ul li span{
+    color: var(--orange);
+    margin-right: 10px;
+}
+
+#pricing .pricing_wrapper .pricing_item .primary_btn{
+    background: #E4E4E4;
+    color: #697585;
+    padding: 19px 48px;
+    margin-bottom: 30px;
+    transition: all linear .2s;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
+}
+#pricing .pricing_wrapper .pricing_item .primary_btn:hover{
+    background: var(--orange);
+    color: var(--white);
+}

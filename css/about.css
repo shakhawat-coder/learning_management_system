@@ -17,6 +17,8 @@
 #blog_details_page .navbar,
 #gallery_page .navbar,
 #faq_page .navbar,
+#login_page .navbar,
+#pricing_page .navbar,
 #course_details_page .navbar,
 #error_page .navbar{
     background: var(--white);
