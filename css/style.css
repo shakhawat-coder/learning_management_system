@@ -704,7 +704,7 @@ letter-spacing: -2.141px;
     padding: 25px 30px;
 }
 #course .course_wrapper .course_item .course_content .duration{
-    padding: 10px;
+    padding: 0 10px;
     background: var(--primary_text);
     color: var(--white);
     font-family: var(--urbanist);
@@ -1083,9 +1083,12 @@ letter-spacing: -2.141px;
  #blog .blog_wrapper .blog_item .blog_content{
     padding: 30px;
  }
- #blog .blog_wrapper .blog_item .blog_content .blog_top_content .blog_cats{
+ #blog .blog_wrapper .blog_item .blog_content .blog_top_content{
     margin-bottom: 30px;
  }
+ /* #blog .blog_wrapper .blog_item .blog_content .blog_top_content .blog_cats{
+    margin-bottom: 30px;
+ } */
  #blog .blog_wrapper .blog_item .blog_content .blog_top_content .blog_cats a,
  #course_details .course_content .course_info .blog_cats a{
     color: #FFF;
@@ -1266,4 +1269,147 @@ font-size: 10px;
     background: var(--primary_text);
     text-align: center;
     padding: 35px 0;
+ }
+
+ /* ===============================================================
+ ==============Responsive====================================
+ =============================================================== */
+ @media (max-width:575.99px) {
+    /* ============common=============== */
+    .common_h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+
+    /* ============banner=============== */
+
+
+    #banner {
+        padding: 198px 0 98px;
+    }
+    #banner .banner_content h1 {
+        font-size: 42px;
+        line-height: 45px;
+    }
+    #banner .banner_content h1 span {
+        font-size: 60px;
+    }
+    #banner .banner_content p {
+        font-size: 16px;
+    }
+
+    /* ================about section============ */
+    #about {
+        padding: 80px 0;
+    }
+    #about .about_image {
+        margin-top: 40px;
+        margin-left: 0;
+        height: 360px;
+        width: 100%;
+    }
+    /* ===================service section============ */
+    #service {
+        padding: 80px 0;
+    }
+    /* ===================counter section============ */
+    #counter {
+        padding: 0 10px 80px;
+    }
+    #counter .counter_wrapper .counter_item_content{
+        margin: 50px 25px;
+    }
+    #counter .counter_wrapper .counter_item_content::after {
+        position: absolute;
+        content: "";
+        height: 0;
+        left: 0px;
+        top: 110%;
+        border-right: 2px dashed #E4E4E4;
+    }
+    #counter .counter_wrapper .counter_item_content::after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        bottom: 30px;
+        border-bottom: 2px dashed #E4E4E4;
+    }
+    /* ===================course section============ */
+    #course {
+        padding: 80px 0;
+    }
+    #course .course_wrapper .course_item .course_image {
+        height: 283px;
+        width: 100%;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+}
+#course .course_wrapper .course_item .course_content .course_details {
+    padding: 12px 12px;
+    border-radius: 6px;
+    background: #F6F6F6;
+    margin-top: 10px;
+}
+    /* ===================category section============ */
+    #category {
+        padding: 80px 0;
+    }
+   
+    /* ===================blog section============ */
+    #blog {
+        padding: 80px 0;
+    }
+    /* ===================testimony section============ */
+    #testimony {
+        padding: 80px 0;
+    }
+    .owl-carousel .owl-nav {
+        display: none;
+    }
+    #testimony .testimonials_wrapper .testimonial_item {
+        padding: 20px;
+    }
+    #testimony .testimonials_wrapper .testimonial_item .user_image {
+        width: 100%;
+    }
+    #testimony .testimonials_wrapper .testimonial_item .testimony_content p {
+        font-size: 16px;
+        line-height: 24px;
+        padding-top: 20px;
+    }
+
+    /* ===================team section============ */
+    #team {
+        padding-top: 80px;
+        margin-bottom: 80px;
+    }
+    #team .team_member_wrapper {
+        position: relative;
+        bottom: 0;
+    }
+    #team .team_member_wrapper .team_member .member_image {
+        width: 100%;
+    }
+    #team .section_header {
+        padding-bottom: 0;
+    }
+    #team .team_member_wrapper .team_member .member_info_overlap {
+        width: 90%;
+        bottom: 30px;
+        left: 5%;
+    }
+    #team .team_member_wrapper .team_member .member_info_overlap .team_member_info {
+        bottom: 50px;
+        left: 20%;
+    }
+    /* ===================branding section============ */
+    #branding {
+        padding: 80px 0;
+    }
+    /* ===================service section============ */
+
  }

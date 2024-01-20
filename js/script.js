@@ -1,6 +1,8 @@
 new VenoBox({
-    selector: '.venobox',
     selector: '.img-popup'
+  });
+new VenoBox({
+    selector: '.video_link'
   });
 
   $('.counter').counterUp({
@@ -21,6 +23,16 @@ new VenoBox({
 $('.testimonials_wrapper').on('translated.owl.carousel', function() {
   $('..testimonials_wrapper .owl-item.active').removeClass('center'); // Remove from previous active item
   $('.testimonials_wrapper .owl-item.active').addClass('center'); // Add to current active item
+});
+$(document).ready(function(){
+  $('.branding_wrapper').owlCarousel({
+        autoplay:true,
+        items: 5,
+        margin: 30,
+        loop:true,
+        dots:false,
+        nav:false,
+  });
 });
 
 $('#aboutpage .testimonials_wrapper .active').addClass('center');
@@ -57,6 +69,7 @@ $(document).ready(function(){
         navText: ['<i class="fa-sharp fa-solid fa-arrow-left-long"></i>', '<i class="fa-sharp fa-solid fa-arrow-right-long"></i>'],
   });
 });
+
 
 
 
