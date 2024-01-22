@@ -22,7 +22,7 @@
     position: absolute;
     content: "";
     left: 0;
-    top: 50%;
+    top: 15px;
     height: 8px;
     width: 8px;
     background: var(--orange);
@@ -42,6 +42,7 @@
     padding-bottom: 30px;
     border-bottom: 1px dashed var(--orange);
     margin-bottom: 30px;
+    line-height: 1.5;
 }
 #become_teacher .become_teacher_form form{}
 #become_teacher .become_teacher_form form .input-group{
@@ -71,3 +72,54 @@
 #become_teacherpage #teacher{
     padding: 120px;
 }
+
+/* ===============================================================
+ ==============Responsive====================================
+ =============================================================== */
+ @media (max-width:575.99px){
+    #become_teacher {
+        padding: 80px 0;
+    }
+ }
+
+ /* =================small device============== */
+ @media (min-width:576px) and (max-width:767.99px) {
+    #become_teacher {
+        padding: 80px 0;
+    }
+ }
+
+ /* =============Medium device================= */
+ @media (min-width:768px) and (max-width:991.99px) {
+    #become_teacher {
+        padding: 80px 0;
+    }
+ }
+
+  /* =============large device================= */
+  @media (min-width:992px) and (max-width:1199.99px) {}
+  /* =============extra large device================= */
+  @media (min-width:1200px){
+    /* .container{
+    max-width: 1320px;
+    margin: 0 auto;
+} */
+  }
+
+
+
+
+
+/* ===============================================================
+ ==============Responsive====================================
+ =============================================================== */
+ /* @media (max-width:363.99px){} */
+
+ /* =================small device============== */
+ /* @media (min-width:576px) and (max-width:767.99px) {} */
+
+ /* =============Medium device================= */
+ /* @media (min-width:768px) and (max-width:991.99px) {} */
+
+  /* =============large device================= */
+  /* @media (min-width:992px) and (max-width:1199.99px) {} */

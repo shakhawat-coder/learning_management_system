@@ -41,7 +41,7 @@
     content: "";
     z-index: -9;
     height: 309px;
-    bottom: -34px;
+    bottom: -30px;
     width: 100%;
     background: var(--orange);
     border-radius: 0 0 200px 200px;
