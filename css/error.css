@@ -1,6 +1,12 @@
 #error{ 
     padding: 120px 0;
 }
+#error .error_image{
+    width: 100%;
+}
+#error .error_image img{
+    width: 100%;
+}
 #error .error_content{
     padding-top: 80px;
 }
