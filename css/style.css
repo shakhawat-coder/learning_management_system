@@ -94,7 +94,7 @@ h1,h2,h3,h4,h5,h6,p{
     font-family: var(--urbanist);
     font-size: 32px;
     font-weight: 700;
-    line-height: 26px; 
+    line-height: 1.5; 
 }
 .common_h5{
     color: var(--blue);

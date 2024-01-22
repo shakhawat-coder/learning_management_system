@@ -35,14 +35,14 @@
 
 <body id="course_details_page">
     <!-- =============navbar section============== -->
-    <nav class="navbar navbar-expand-lg position-absolute w-100 ">
+    <nav class="navbar navbar-expand-xl position-absolute w-100 ">
         <div class="container">
             <a class="navbar-brand" href="../index.html">
                 <picture>
                     <img src="../images/logo.png" alt="">
                 </picture>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            <button class="ms-auto navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -94,7 +94,7 @@
                         <i class="fa-light fa-user"></i>
                     </div>
                 </div>
-                <div class="nav_btn d-flex align-items-center ">
+                <div class="nav_btn d-none d-lg-flex align-items-center ">
                     <i class="fa-sharp fa-light fa-phone-volume"></i>
                     <div class="d-flex flex-column ">
                         <a class="" href="./contact.html">(303) 555-0105</a>
@@ -125,15 +125,16 @@
     <!-- ========================course details section=================== -->
     <section id="course_details">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
+            <div class="row row-gap-4">
+                <div class="col-lg-7 col-xl-8">
                     <div class="course_content">
                         <div class="course_content_img">
                             <picture>
-                                <img src="" alt="">
+                                <img src="" alt="" class="img-fluid">
                             </picture>
                         </div>
-                        <div class="course_info d-flex align-items-center ">
+                        <div
+                            class="course_info d-flex flex-wrap flex-column flex-sm-row column-gap-3  row-gap-3 align-items-lg-center ">
                             <div class="d-flex align-items-center  project_manager_info">
                                 <div>
                                     <div class="project_manager_image">
@@ -156,7 +157,7 @@
                                 <i class="fas fa-star"></i>
                                 <span>(30 Reviews)</span>
                             </div>
-                            <div class="ms-auto price">
+                            <div class="ms-xl-auto price">
                                 <span class=" d-block ">$473.00</span>
                             </div>
                         </div>
@@ -210,11 +211,14 @@
                                             metus, ac dapibus dolor.
                                             Nam vel lacus eu nisl bibendum accumsan vitae vitae nibh. </p>
                                         <menu>
-                                            <li><i class="fa-light fa-check"></i> Nibh. Nam nec eros id magna hendrerit
+                                            <li><i class="fa-solid fa-circle-check"></i> Nibh. Nam nec eros id magna
+                                                hendrerit
                                                 s</li>
-                                            <li><i class="fa-light fa-check"></i> Vitae nibh. Nam nec eros id magna
+                                            <li><i class="fa-solid fa-circle-check"></i> Vitae nibh. Nam nec eros id
+                                                magna
                                                 hendrerit s</li>
-                                            <li><i class="fa-light fa-check"></i> Nam nec eros id magna hendrerit s</li>
+                                            <li><i class="fa-solid fa-circle-check"></i> Nam nec eros id magna hendrerit
+                                                s</li>
                                         </menu>
                                     </div>
                                 </div>
@@ -227,26 +231,32 @@
                                             metus, ac dapibus dolor.
                                             Nam vel lacus eu nisl bibendum accumsan vitae vitae nibh. </p>
                                         <ul class="p-0 ">
-                                            <li>
-                                                <i class="fa-thin fa-circle-play"></i>
-                                                <h6 class="common_h6 ps-3 ">Introduction of
-                                                    Editing</h6>
+                                            <li class="d-sm-flex ">
+                                                <div class="d-flex align-items-center mb-3 mb-sm-0">
+                                                    <i class="fa-thin fa-circle-play"></i>
+                                                    <h6 class="common_h6 ps-3 ">Introduction of
+                                                        Editing</h6>
+                                                </div>
                                                 <span class="preview">Preview</span>
                                                 <span class="ms-auto common_p">10 Minutes</span>
                                             </li>
-                                            <li>
-                                                <i class="fa-thin fa-circle-play"></i>
-                                                <h6 class="common_h6 ps-3 ">Overview of
-                                                    Editing</h6>
+                                            <li class="d-sm-flex ">
+                                                <div class="d-flex align-items-center mb-3 mb-sm-0">
+                                                    <i class="fa-thin fa-circle-play"></i>
+                                                    <h6 class="common_h6 ps-3 ">Overview of
+                                                        Editing</h6>
+                                                </div>
                                                 <span class="preview">Preview</span>
                                                 <span class="ms-auto common_p">10 Minutes</span>
                                             </li>
-                                            <li>
-                                                <i class="fa-sharp fa-light fa-folder-open"></i>
-                                                <h6 class="common_h6 ps-3 ">Basic Editing
-                                                    Technology</span>
+                                            <li class="d-sm-flex ">
+                                                <div class="d-flex align-items-center mb-3 mb-sm-0">
+                                                    <i class="fa-sharp fa-light fa-folder-open"></i>
+                                                    <h6 class="common_h6 ps-3 ">Basic Editing
+                                                        Technology</span>
+                                                </div>
                                             </li>
-                                            <li>
+                                            <li class="d-flex ">
                                                 <i class="fa-light fa-lightbulb-on"></i>
                                                 <h6 class="common_h6 ps-3 ">Quiz</h6>
                                                 <span class="ms-auto common_p">6 Questions</span>
@@ -260,19 +270,23 @@
                                             metus, ac dapibus dolor.
                                             Nam vel lacus eu nisl bibendum accumsan vitae vitae nibh. </p>
                                         <ul class="p-0 m-0 ">
-                                            <li>
-                                                <i class="fa-thin fa-circle-play"></i>
-                                                <h6 class="common_h6 ps-3 ">Introduction of
-                                                    Editing</h6>
+                                            <li class="d-sm-flex">
+                                                <div class="d-flex align-items-center mb-3 mb-sm-0">
+                                                    <i class="fa-thin fa-circle-play"></i>
+                                                    <h6 class="common_h6 ps-3 ">Introduction of
+                                                        Editing</h6>
+                                                </div>
                                                 <span class="preview">Preview</span>
                                                 <span class="ms-auto common_p">10 Minutes</span>
                                             </li>
-                                            <li>
-                                                <i class="fa-sharp fa-light fa-folder-open"></i>
-                                                <h6 class="common_h6 ps-3 ">Basic Editing
-                                                    Technology</span>
+                                            <li class="d-sm-flex">
+                                                <div class="d-flex align-items-center mb-3 mb-sm-0">
+                                                    <i class="fa-sharp fa-light fa-folder-open"></i>
+                                                    <h6 class="common_h6 ps-3 ">Basic Editing
+                                                        Technology</span>
+                                                </div>
                                             </li>
-                                            <li>
+                                            <li class="d-flex">
                                                 <i class="fa-light fa-lightbulb-on"></i>
                                                 <h6 class="common_h6 ps-3 ">Quiz</h6>
                                                 <span class="ms-auto common_p">6 Questions</span>
@@ -284,9 +298,9 @@
                                     <div class="description">
                                         <h5 class="common-h5">2 Reviews</h5>
                                         <div>
-                                            <div class="review_content d-flex align-items-center ">
+                                            <div class="review_content d-sm-flex align-items-center ">
                                                 <div>
-                                                    <div class="user_image">
+                                                    <div class="user_image mx-auto mb-4 mb-sm-0">
                                                         <picture>
                                                             <img src="" alt="">
                                                         </picture>
@@ -313,9 +327,9 @@
                                                         ipsum. Sed eget auctor metus, ac dapibus dolor. </p>
                                                 </div>
                                             </div>
-                                            <div class="review_content d-flex align-items-center ">
+                                            <div class="review_content d-sm-flex align-items-center ">
                                                 <div>
-                                                    <div class="user_image">
+                                                    <div class="user_image mx-auto mb-4 mb-sm-0 ">
                                                         <picture>
                                                             <img src="" alt="">
                                                         </picture>
@@ -373,9 +387,9 @@
                                     </div>
                                 </div>
                                 <div id="tab_instructor" class="tab-pane review" data-order="4">
-                                    <div class=" description d-flex align-items-center ">
+                                    <div class=" description d-sm-flex align-items-center ">
                                         <div>
-                                            <div class="instructor_image">
+                                            <div class="instructor_image mx-auto mb-4 mb-sm-0">
                                                 <picture>
                                                     <img src="" alt="">
                                                 </picture>
@@ -395,7 +409,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-5 col-xl-4">
                     <div class="sidebar">
                         <div class="course_details_sidebar_item">
                             <h4 class="common_h4">Course Features</h4>
