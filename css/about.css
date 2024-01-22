@@ -214,7 +214,7 @@
     position: absolute;
     left: 50px;
     right: 50px;
-    bottom: 250px;
+    bottom: -10px;
     margin: auto;
     fill: var(--orange);
     transition: 500ms ease;
@@ -354,8 +354,8 @@
  =============================================================== */
  @media (max-width:363.99px){
     .course_item .course_item_image svg {
-        bottom: 280px;
-        margin: auto;
+        /* bottom: 280px;
+        margin: auto; */
     }
  }
  @media (max-width:575.99px) {
