@@ -42,7 +42,7 @@
     z-index: -9;
     height: 309px;
     bottom: -34px;
-    width: 416px;
+    width: 100%;
     background: var(--orange);
     border-radius: 0 0 200px 200px;
     -webkit-border-radius: 0 0 200px 200px;
@@ -83,7 +83,7 @@
 #teacher .team_member_wrapper .team_member .member_image {
     margin: 0 auto;
     height: 513px;
-    width: 352px;
+    width: 85%;
     overflow: hidden;
     background: var(--primary_text);
     border-radius: 200px;

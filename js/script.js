@@ -54,6 +54,17 @@ $(document).ready(function(){
 
 $('#aboutpage .testimonials_wrapper .active').addClass('center');
 $(document).ready(function(){
+  $('#homepage .testimonials_wrapper').owlCarousel({
+        autoplay:true,
+        items: 1,
+        margin: 30,
+        loop:true,
+        dots:false,
+        nav:true,
+        navText: ['<i class="fa-sharp fa-solid fa-arrow-left-long"></i>', '<i class="fa-sharp fa-solid fa-arrow-right-long"></i>'],
+  });
+});
+$(document).ready(function(){
   $('#aboutpage .testimonials_wrapper').owlCarousel({
         autoplay:true,
         items: 3,
@@ -62,6 +73,18 @@ $(document).ready(function(){
         dots:false,
         nav:true,
         navText: ['<i class="fa-sharp fa-solid fa-arrow-left-long"></i>', '<i class="fa-sharp fa-solid fa-arrow-right-long"></i>'],
+        responsive: {
+          0: {
+            items: 1,
+          },
+         
+          670: {
+            items: 2,
+          },
+          1200: {
+            items: 3,
+          },
+        }
   });
 });
 $(document).ready(function(){
@@ -73,6 +96,18 @@ $(document).ready(function(){
         dots:false,
         nav:true,
         navText: ['<i class="fa-sharp fa-solid fa-arrow-left-long"></i>', '<i class="fa-sharp fa-solid fa-arrow-right-long"></i>'],
+        responsive: {
+          0: {
+            items: 1,
+          },
+         
+          992: {
+            items: 2,
+          },
+          1200: {
+            items: 3,
+          },
+        }
   });
 });
 $(document).ready(function(){
@@ -84,6 +119,18 @@ $(document).ready(function(){
         dots:false,
         nav:true,
         navText: ['<i class="fa-sharp fa-solid fa-arrow-left-long"></i>', '<i class="fa-sharp fa-solid fa-arrow-right-long"></i>'],
+        responsive: {
+          0: {
+            items: 1,
+          },
+         
+          692: {
+            items: 2,
+          },
+          1200: {
+            items: 3,
+          },
+        }
   });
 });
 
