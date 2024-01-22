@@ -10,7 +10,7 @@
 #gallery .gallery_wrapper .gallery_image{
     position: relative;
     height: 551px;
-    width: 416px;
+    width: 100%;
     overflow: hidden;
     background: var(--primary_text);
     border-radius: 200px;

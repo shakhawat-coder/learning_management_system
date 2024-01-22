@@ -37,14 +37,12 @@
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
 }
-#become_teacher .become_teacher_form{}
 #become_teacher .become_teacher_form h4{
     padding-bottom: 30px;
     border-bottom: 1px dashed var(--orange);
     margin-bottom: 30px;
     line-height: 1.5;
 }
-#become_teacher .become_teacher_form form{}
 #become_teacher .become_teacher_form form .input-group{
     margin-bottom: 20px;
 }
