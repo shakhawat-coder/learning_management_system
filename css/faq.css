@@ -80,3 +80,28 @@
     font-weight: 700;
     line-height: 29.407px; 
 }
+
+
+ @media (max-width:57563.99px){
+    #faq {
+        padding: 80px 0;
+    }
+    .accordion-item{
+        padding: 20px;
+    }
+    #faq_page #cta {
+    padding: 0 0 80px;
+}
+ }
+/* =================small device============== */
+ @media (min-width:576px) and (max-width:767.99px) {
+    #faq {
+        padding: 80px 0;
+    }
+    .accordion-item{
+        padding: 20px;
+    }
+    #faq_page #cta {
+    padding: 0 0 80px;
+}
+ }
