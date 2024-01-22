@@ -96,15 +96,7 @@
     }
  }
 
-  /* =============large device================= */
-  @media (min-width:992px) and (max-width:1199.99px) {}
-  /* =============extra large device================= */
-  @media (min-width:1200px){
-    /* .container{
-    max-width: 1320px;
-    margin: 0 auto;
-} */
-  }
+
 
 
 

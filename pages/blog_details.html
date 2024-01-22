@@ -35,14 +35,14 @@
 
 <body id="blog_details_page">
     <!-- =============navbar section============== -->
-    <nav class="navbar navbar-expand-lg position-absolute w-100 ">
+    <nav class="navbar navbar-expand-xl position-absolute w-100 ">
         <div class="container">
             <a class="navbar-brand" href="../index.html">
                 <picture>
                     <img src="../images/logo.png" alt="">
                 </picture>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            <button class="ms-auto navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -94,7 +94,7 @@
                         <i class="fa-light fa-user"></i>
                     </div>
                 </div>
-                <div class="nav_btn d-flex align-items-center ">
+                <div class="nav_btn d-none d-lg-flex align-items-center ">
                     <i class="fa-sharp fa-light fa-phone-volume"></i>
                     <div class="d-flex flex-column ">
                         <a class="" href="./contact.html">(303) 555-0105</a>
@@ -125,12 +125,12 @@
     <!-- ========================blog details section=================== -->
     <section id="blog_details">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
+            <div class="row row-gap-4">
+                <div class="col-lg-7 col-xl-8">
                     <div class="blog_details_content">
                         <div class="blog_details_content_img">
                             <picture>
-                                <img src="" alt="">
+                                <img src="" alt="" class="img-fluid ">
                             </picture>
                         </div>
                         <div class="course_info d-flex align-items-center ">
@@ -157,10 +157,11 @@
                             metus, ac sagittis tortor hendrerit sit amet. Aenean dictum eget nulla in pharetra.
                             Vestibulum vulputate vehicula mattis. Vivamus dictum nec dui porta rutrum. Nam erat felis,
                             mattis ac massa </p>
-                        <div class="tags d-flex align-items-center ">
+                        <div
+                            class="tags d-flex row-gap-4 flex-column flex-md-row flex-lg-column flex-xl-row   align-items-md-center align-items-lg-start  align-items-xl-center ">
                             <h5 class="common_h5">Tags</h5>
-                            <ul class="p-0 m-0 d-flex flex-wrap align-items-center  column-gap-3   sidebar_tag">
-                                <li class="d-flex column-gap-3 ">
+                            <ul class="p-0 m-0 d-flex flex-wrap align-items-center gap-3 sidebar_tag">
+                                <li class="d-flex gap-3 ">
                                     <a href="#">Marketing</a>
                                 </li>
                                 <li class="d-flex column-gap-3 ">
@@ -169,11 +170,8 @@
                                 <li class="d-flex column-gap-3 ">
                                     <a href="#">Design</a>
                                 </li>
-                                <li class="d-flex column-gap-3 ">
-                                    <a href="#">Digital</a>
-                                </li>
                             </ul>
-                            <ul class="mb-0 ms-auto   social d-flex align-items-center ">
+                            <ul class="p-0 ps-md-4 p-lg-0  mb-0 ms-xl-auto social d-flex align-items-lg-center ">
                                 <li>
                                     <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
                                 </li>
@@ -186,15 +184,12 @@
                                 <li>
                                     <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
                                 </li>
-
-
-
                             </ul>
                         </div>
-                        <div class=" review">
+                        <div class="review">
                             <h5 class="common-h5">2 Reviews</h5>
                             <div>
-                                <div class="review_content d-flex align-items-center ">
+                                <div class="review_content d-flex align-items-sm-center ">
                                     <div>
                                         <div class="user_image">
                                             <picture>
@@ -216,7 +211,7 @@
                                             ipsum. Sed eget auctor metus, ac dapibus dolor. </p>
                                     </div>
                                 </div>
-                                <div class="review_content d-flex align-items-center ">
+                                <div class="review_content d-flex align-items-sm-center ">
                                     <div>
                                         <div class="user_image">
                                             <picture>
@@ -257,7 +252,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-5 col-xl-4">
                     <div class="sidebar">
                         <div class="sidebar_search">
                             <form action="#" class="sidebar__search-form">
